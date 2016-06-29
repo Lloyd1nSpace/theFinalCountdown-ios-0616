@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FISViewController : UIViewController
+@interface FISViewController : UIViewController {
+    
+    NSTimer *timer;
+    // Declaring a property this way doesn't cause for me to call self. everytime, I can just call timer. This was also taken from the example I found in order to figure out how to get the timer to count down.
+    
+}
 
 @end
